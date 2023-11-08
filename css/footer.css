@@ -1,0 +1,28 @@
+#contatos {
+    background: linear-gradient(190deg,#920000, black) ;
+    margin: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.contatos_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.contatos_card img{
+    width: 6%;
+    margin-right: 2%;
+}
+
+.contatos_card a{
+    color: white;
+}
+
+#contatos_horizontal{
+    display: flex;
+}

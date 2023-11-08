@@ -1,0 +1,24 @@
+#fotos{
+    background: linear-gradient(190deg,#920000, black) ;
+    margin: top 2%;
+}
+
+#fotos h2{
+    margin-bottom: 2%;    
+}
+
+#fotos div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#fotos div img{
+    width: 30%;
+    height: 50%;
+    padding: 0 2% 2%; 
+    object-fit: cover;
+}
+

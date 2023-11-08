@@ -1,0 +1,36 @@
+header{
+    
+    
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.829)), url('../fotos/foto8.jpg') no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+    height: 60vh;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+
+header .botao{
+    color: rgb(0, 0, 0);
+    background: #ff0000;
+    padding: 0.6rem 1.4rem;
+    font-size: .9rem;
+    border-radius: 5px;
+    transform: skew(-12deg);
+}
+
+.botao_destaque{
+    color: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
+    padding: 0.6rem 1.4rem;
+    font-size: .9rem;
+    border-radius: 5px;
+    transform: skew(-12deg);
+}

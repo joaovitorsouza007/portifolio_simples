@@ -1,0 +1,7 @@
+#sobre{
+    background: linear-gradient(190deg,#920000, black) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2% 4%
+}

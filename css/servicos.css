@@ -1,0 +1,52 @@
+hr{
+    border-bottom: 1px solid #2d2dca;
+    width: 20%;
+    margin: 2% auto;
+}
+
+#servicos div:nth-child(1) #servicos div:nth-child(2) {
+
+    background-color: #9c181846;
+
+}
+
+#conteudos_servicos{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+    border: 1% red solid;
+}
+
+#conteudos_servicos div{
+    border: 1px solid;
+    width: 48%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-size: cover;
+}
+
+#conteudos_servicos div img{
+    width: 20%;
+    display: block;
+    margin: 2% auto 0;
+}
+
+#fotografia{
+
+    background: url('https://fotografiaprofissional.org/wp-content/uploads/2018/09/o-que-e-fotografia.jpg');
+}
+
+#videos{
+    background: url('https://www.oberlo.com/media/1603895755-openshot.jpg?w=1824&fit=max');
+}
+
+#imagens{
+    background: url('https://adm.primefilmes.com.br//uploads/importacao/2020/01/captacao-de-imagem-digital.jpg');
+}
+
+#tratamento{
+    background: url('https://blog.welancer.com/wp-content/uploads/2018/01/154510-guia-completo-para-o-tratamento-de-imagens.jpg');
+}

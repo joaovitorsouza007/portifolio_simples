@@ -1,0 +1,44 @@
+nav{
+    background: linear-gradient(190deg,#920000, black) ;
+    display: flex;
+    align-items: center;
+    height: 20vh;
+}
+
+#logo{
+    width: 5.62rem;
+    height: 5.62rem;
+    margin-left: 2%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #920000;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+
+nav ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul li{
+    
+    padding: 2%;
+}
+
+nav ul li a {
+    color: white;    
+    text-shadow: 2px 2px black;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+}
+nav ul li a:hover{
+    color: goldenrod;
+    border-bottom: 3px solid #2d2dca;
+    border-radius: 5px;
+}
